@@ -37,6 +37,17 @@ export default function Produtos() {
                     <p>R$ 500,00 </p>
                 </div>
             </div>
+            <div className={estilos.informacao}>
+                <h4>Todos os nosso produtos incluem:</h4>
+            </div>
+            <div className={estilos.container_list}>
+                <ul className={estilos.lista}> 
+                    <li>Garantia de 1 ano</li>
+                    <li>Manutenção preventiva</li>
+                    <li>Descontos especiais na compra da segunda unidade</li>
+                    <li>Flexibilidade no pagamento</li>
+                </ul>
+            </div>
         </div>
     )
 }
