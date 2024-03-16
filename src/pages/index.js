@@ -6,6 +6,7 @@ import Topo from '../componentes/Topo'
 import Capa from '../componentes/SecaoCapa'
 import Produtos from '../componentes/SecaoProdutos'
 import Sobre from '../componentes/SecaoSobre'
+import Contato from '../componentes/SecaoContato'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function Home() {
       <Capa />
       <Produtos />
       <Sobre />
+      <Contato />
     </>
   );
 }
