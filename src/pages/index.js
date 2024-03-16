@@ -7,6 +7,7 @@ import Capa from '../componentes/SecaoCapa'
 import Produtos from '../componentes/SecaoProdutos'
 import Sobre from '../componentes/SecaoSobre'
 import Contato from '../componentes/SecaoContato'
+import Rodape from '../componentes/Rodape'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function Home() {
       <Produtos />
       <Sobre />
       <Contato />
+      <Rodape />
     </>
   );
 }
