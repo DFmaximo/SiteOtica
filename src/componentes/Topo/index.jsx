@@ -6,13 +6,15 @@ import icone from '../../../public/oculos.jpg'
 export default function Topo() {
     return(
         <div className={estilos.container}>
-            <div>
-                <Image src={icone} alt='oculos' className={estilos.image} />
-            </div>
-            <div className={estilos.texto}> 
-                <h3>PRODUTOS</h3>
-                <h3>SOBRE</h3>
-                <h3>CONTATO</h3>
+            <div className={estilos.container_secundario}>
+                <div>
+                    <Image src={icone} alt='oculos' className={estilos.image} />
+                </div>
+                <div className={estilos.texto}> 
+                    <h3>PRODUTOS</h3>
+                    <h3>SOBRE</h3>
+                    <h3>CONTATO</h3>
+                </div>
             </div>
         </div>
     )
