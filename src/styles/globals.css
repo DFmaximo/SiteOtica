@@ -4,3 +4,8 @@
     box-sizing: border-box;
     font-family: Tahoma, sans-serif;
   }
+
+  Link {
+    text-decoration: none;
+    color: red;
+  }

@@ -1,19 +1,20 @@
 import estilos from './Topo.module.css'
 import Image from 'next/image'
 import icone from '../../../public/oculos.jpg'
+import Link from 'next/link'
 
 
 export default function Topo() {
     return(
         <div className={estilos.container}>
             <div className={estilos.container_secundario}>
-                <div>
+                <Link href="/" className={estilos.link}>
                     <Image src={icone} alt='oculos' className={estilos.image} />
-                </div>
+                </Link>
                 <div className={estilos.texto}> 
-                    <h3>PRODUTOS</h3>
-                    <h3>SOBRE</h3>
-                    <h3>CONTATO</h3>
+                    <Link href="../SecaoProdutos/" className={estilos.link}>PRODUTOS</Link>
+                    <Link href="../SecaoSobre/" className={estilos.link}>SOBRE</Link>
+                    <Link href="../SecaoContato/" className={estilos.link}>CONTATO</Link>
                 </div>
             </div>
         </div>

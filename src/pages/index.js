@@ -2,12 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import Topo from '../componentes/Topo'
 import Capa from '../componentes/SecaoCapa'
-import Produtos from '../componentes/SecaoProdutos'
-import Sobre from '../componentes/SecaoSobre'
-import Contato from '../componentes/SecaoContato'
-import Rodape from '../componentes/Rodape'
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,12 +16,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Topo />
       <Capa />
-      <Produtos />
-      <Sobre />
-      <Contato />
-      <Rodape />
     </>
   );
 }
