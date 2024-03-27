@@ -5,3 +5,15 @@
     font-size: 20px;
     padding: 20px 0 20px 0;
 }
+
+.link{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.link:hover{
+    color: red;
+    transition: 1s;
+    transform: scale(1.5);
+}
