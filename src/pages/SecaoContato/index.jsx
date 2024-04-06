@@ -1,17 +1,16 @@
 import estilos from './contato.module.css'
 import Image from 'next/image'
-import map from '../../../public/map.png'
+import map from '../../../public/local.png'
 import tel from '../../../public/telefone.png'
 import email from '../../../public/email.png'
-import face from '../../../public/face.png'
-import insta from '../../../public/insta.png'
-import tw from '../../../public/tw.png'
-import Capa from '../../componentes/SecaoCapa'
+import face from '../../../public/fb.png'
+import insta from '../../../public/ig.png'
+import tw from '../../../public/tt.png'
+
 
 export default function Contato () {
     return(
         <>
-            <Capa />
             <div className={estilos.container_principal}>
                 <h3 className={estilos.subtitulo}>Fale conosco</h3>
                 <p>Não perca tempo, venha conhecer uma de nossas lojas ou entre em contato através de nossas redes sociais ou da central de atendimento.</p>
@@ -19,7 +18,9 @@ export default function Contato () {
                     <div>
                         <h3>Nossos contatos</h3>
                         <div className={estilos.container_secundario}>
-                            <Image src={map} alt='ponteiro do mapa' className={estilos.imagens}></Image>
+                            <a href='https://maps.app.goo.gl/TDc4pZqr9mJGHPrD6' className={estilos.link} target="_blank">
+                                <Image src={map} alt='ponteiro do mapa' className={estilos.imagens}></Image>
+                            </a>
                             <span>Nova Iguaçu, RJ</span>
                         </div>
                         <div className={estilos.container_secundario}>
