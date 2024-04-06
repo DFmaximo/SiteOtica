@@ -6,11 +6,15 @@ import email from '../../../public/email.png'
 import face from '../../../public/fb.png'
 import insta from '../../../public/ig.png'
 import tw from '../../../public/tt.png'
+import Head from 'next/head'
 
 
 export default function Contato () {
     return(
         <>
+            <Head>
+                <title>Óticas Vida | Contato</title>
+            </Head>
             <div className={estilos.container_principal}>
                 <h3 className={estilos.subtitulo}>Fale conosco</h3>
                 <p>Não perca tempo, venha conhecer uma de nossas lojas ou entre em contato através de nossas redes sociais ou da central de atendimento.</p>
